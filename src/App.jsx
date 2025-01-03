@@ -3,6 +3,7 @@ import Home from './Home'
 import About from './About'
 import Contact from './Contact'
 import UseState from './useState'
+import UseEffect from './UseEffect'
 
 function App() {
 
@@ -13,7 +14,8 @@ function App() {
         <Route path='/' element = {<Home />} />
         <Route path='/about' element = {<About /> } />
         <Route path='/contact' element = {<Contact />} />
-        <Route path='/usestate' element = {<UseState />} />
+        <Route path='/use-state' element = {<UseState />} />
+        <Route path='/use-effect' element = {<UseEffect />} />
        </Routes>
       </BrowserRouter>
     </>
